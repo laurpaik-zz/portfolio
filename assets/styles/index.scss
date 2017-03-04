@@ -1,6 +1,60 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'assets/styles/colors';
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+// @import 'assets/styles/photo-banner1.jpg';
 
-nav a {
-  display: inline-block;
+
+body {
+  background-color: $light-pink;
+  color: $black;
+  font-family: 'Permanent Marker', cursive;
+}
+
+nav {
+  a {
+    color: $black;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: $pink;
+
+    li {
+      background-color: $black;
+    }
+  }
+}
+
+.banner-top {
+  background-color: $black;
+  clear: both;
+  color: $light-pink;
+  height: 500px;
+  margin: 0 auto;
+  // text-align: center;
+  width: 900px;
+
+  h1 {
+    padding: 50px;
+  }
+}
+
+.row {
+  a {
+    color: $pink;
+  }
+
+  a:hover {
+    color: $white;
+  }
+}
+
+.skills {
+  display: block;
+  float: left;
+  padding: 8px 0;
+  text-align: center;
+  width: 25%;
 }
