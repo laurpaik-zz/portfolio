@@ -1,14 +1,15 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'assets/styles/colors';
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+// @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 // @import 'assets/styles/photo-banner1.jpg';
 
 
 body {
   background-color: $light-pink;
   color: $black;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Righteous', cursive;
 }
 
 nav {
