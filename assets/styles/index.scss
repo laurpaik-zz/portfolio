@@ -12,21 +12,21 @@ body {
   font-family: 'Righteous', cursive;
 }
 
-nav {
-  a {
-    color: $black;
-    display: inline-block;
-    font-size: 20px;
-  }
-
-  a:hover {
-    color: $pink;
-
-    li {
-      background-color: $black;
-    }
-  }
-}
+// nav {
+//   a {
+//     color: $black;
+//     display: inline-block;
+//     font-size: 20px;
+//   }
+//
+//   a:hover {
+//     color: $pink;
+//
+//     li {
+//       background-color: $black;
+//     }
+//   }
+// }
 
 .banner-top {
   background-color: $black;
@@ -35,9 +35,14 @@ nav {
   height: 500px;
   margin: 0 auto;
   // text-align: center;
-  width: 900px;
+  max-width: 900px;
 
   h1 {
+    padding: 50px;
+  }
+
+  .about-paragraph {
+    font-size: 30px;
     padding: 50px;
   }
 }
@@ -54,8 +59,17 @@ nav {
 
 .skills {
   display: block;
-  float: left;
+  float: right;
   padding: 8px 0;
   text-align: center;
   width: 25%;
+}
+
+img {
+  width: 300px;
+}
+
+.container {
+  clear: both;
+  max-width: 900px;
 }
