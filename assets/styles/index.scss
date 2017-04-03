@@ -1,7 +1,6 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'assets/styles/colors';
-// @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 // @import 'assets/styles/photo-banner1.jpg';
 
@@ -11,22 +10,6 @@ body {
   color: $black;
   font-family: 'Righteous', cursive;
 }
-
-// nav {
-//   a {
-//     color: $black;
-//     display: inline-block;
-//     font-size: 20px;
-//   }
-//
-//   a:hover {
-//     color: $pink;
-//
-//     li {
-//       background-color: $black;
-//     }
-//   }
-// }
 
 .banner-top {
   background-color: $black;
@@ -50,10 +33,6 @@ body {
 .row {
   a {
     color: $pink;
-  }
-
-  a:hover {
-    color: $white;
   }
 }
 
