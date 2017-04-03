@@ -2,7 +2,6 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'assets/styles/colors';
 @import url('https://fonts.googleapis.com/css?family=Righteous');
-// @import 'assets/styles/photo-banner1.jpg';
 
 
 body {
@@ -15,33 +14,26 @@ body {
   background-color: $black;
   clear: both;
   color: $light-pink;
-  height: 500px;
   margin: 0 auto;
-  // text-align: center;
+  max-height: 1000px;
   max-width: 900px;
 
   h1 {
-    padding: 50px;
+    padding: 30px;
   }
 
   .about-paragraph {
     font-size: 30px;
-    padding: 50px;
+    padding: 30px;
+    position: relative;
   }
 }
 
 .row {
   a {
     color: $pink;
+    padding: 8px;
   }
-}
-
-.skills {
-  display: block;
-  float: right;
-  padding: 8px 0;
-  text-align: center;
-  width: 25%;
 }
 
 img {
