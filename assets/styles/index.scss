@@ -10,7 +10,7 @@ body {
   font-family: 'Righteous', cursive;
 }
 
-.banner-top {
+#banner {
   background-color: $black;
   clear: both;
   color: $light-pink;
@@ -18,8 +18,10 @@ body {
   max-height: 1000px;
   max-width: 900px;
 
-  h1 {
-    padding: 30px;
+  h1,
+  h2 {
+    padding-left: 30px;
+    padding-top: 30px;
   }
 
   .about-paragraph {
@@ -27,6 +29,12 @@ body {
     padding: 30px;
     position: relative;
   }
+}
+
+hr {
+  background: $black;
+  height: 1px;
+  width: 100%;
 }
 
 .row {
@@ -43,4 +51,8 @@ img {
 .container {
   clear: both;
   max-width: 900px;
+}
+
+.section-title {
+  text-decoration: underline;
 }
