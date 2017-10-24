@@ -1,13 +1,12 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'assets/styles/colors';
-@import url('https://fonts.googleapis.com/css?family=Righteous');
-
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
 body {
   background-color: $light-pink;
   color: $black;
-  font-family: 'Righteous', cursive;
+  font-family: 'Architects Daughter';
 }
 
 #banner {
@@ -55,4 +54,8 @@ img {
 
 .section-title {
   text-decoration: underline;
+}
+
+#contact-section {
+  padding-bottom: 5em;
 }
